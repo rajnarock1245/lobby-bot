@@ -139,7 +139,7 @@ class SilverBot(commands.Bot):
 
         self.sanic_app = sanic_app
         self.server = server
-        self.welcome_message = "created Rikkoa bot by:g3_piton-52              bot Rikkoa creado por:g3_piton-52             create a lobby bot:https://discord.gg/EWdPpeps94               CREA TU PROPIO BOThttps://discord.gg/EWdPpeps94             twitch:skwox  YT:its moderator  Instagram:g3_ruben._.fuenla_     twiter:dekwik58       connect bot:16:60 a 21:00      frydays:9:00 a 23:00    my team fortnite Instagram:g3nesis_team     my code creator nosoypayaso✦🍣   check chat pls⃟"
+        self.welcome_message = "created bot by:g3_piton-52              bot creado por:g3_piton-52             create a lobby bot:https://discord.gg/EWdPpeps94               CREA TU PROPIO BOThttps://discord.gg/EWdPpeps94             twitch:skwox  YT:its moderator  Instagram:g3_ruben._.fuenla_     twiter:dekwik58       connect bot:16:60 a 21:00      frydays:9:00 a 23:00    my team fortnite Instagram:g3nesis_team     my code creator nosoypayaso✦🍣   check chat pls⃟"
         self.whisper_message = ""
 
     async def set_and_update_member_prop(self, schema_key: str, new_value: Any) -> None:
