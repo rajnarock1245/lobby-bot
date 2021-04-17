@@ -3,6 +3,8 @@ os.system("python3 webserver.py &")
 import asyncio
 import uvloop
 import sys
+import discord
+from fortnitepy.ext import commands
 
 asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 
