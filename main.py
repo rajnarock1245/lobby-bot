@@ -4,6 +4,8 @@ import asyncio
 import uvloop
 import sys
 import discord
+import ps2
+import pyps4
 from fortnitepy.ext import commands
 
 asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
